@@ -5,7 +5,7 @@ import { Globe, BookOpen, Car, FileText, CheckCircle, Users } from 'lucide-react
 const translations = {
   it: {
     nav: {
-      brand: "Nostro Lingua LAB",
+      brand: "Nostra Lingua LAB",
       courses: "Corsi",
       patente: "Patente B",
       resources: "Materiali PDF",
@@ -19,7 +19,7 @@ const translations = {
       ctaSecondary: "Guarda i Corsi",
     },
     features: {
-      title: "Perché scegliere Nostro Lingua LAB",
+      title: "Perché scegliere Nostra Lingua LAB",
       item1Title: "Spiegazioni Bilingui",
       item1Desc: "Concetti grammaticali e vocaboli complessi spiegati con traduzione in Bengalese.",
       item2Title: "Corso Patente B",
@@ -41,11 +41,11 @@ const translations = {
       subtitle: "Unisciti alla nostra community di studenti e impara l'italiano passo dopo passo.",
       button: "Iscriviti Ora",
     },
-    footer: "© 2026 Nostro Lingua LAB. Tutti i diritti riservati."
+    footer: "© 2026 Nostra Lingua LAB. Tutti i diritti riservati."
   },
   bn: {
     nav: {
-      brand: "Nostro Lingua LAB",
+      brand: "Nostra Lingua LAB",
       courses: "কোর্সসমূহ",
       patente: "লাইসেন্স বি",
       resources: "পিডিএফ ফাইল",
@@ -81,7 +81,7 @@ const translations = {
       subtitle: "আমাদের স্টুডেন্ট কমিউনিটিতে যোগ দিন এবং ধাপে ধাপে ইতালিয়ান শিখুন।",
       button: "এখনই শুরু করুন",
     },
-    footer: "© ২০২৬ Nostro Lingua LAB। সর্বস্বত্ব সংরক্ষিত।"
+    footer: "© ২০২৬ Nostra Lingua LAB। সর্বস্বত্ব সংরক্ষিত।"
   }
 };
 

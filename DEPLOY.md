@@ -1,4 +1,4 @@
-# Deploy Nostro Lingua LAB
+# Deploy Nostra Lingua LAB
 
 Run this site as a Node.js service (Node 22 or newer).
 

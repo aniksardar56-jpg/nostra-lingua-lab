@@ -63,13 +63,14 @@
     ['নাম এবং লিংক দিন।', 'নাম এবং লিংক দিন।', 'Enter a title and link.', 'Inserisci un titolo e un link.'],
   ];
   extraRows.forEach(([source, bn, en, it]) => translations.set(source, { bn, en, it }));
+  translations.set('Nostro Lingua LAB', { bn: 'Nostra Lingua LAB', en: 'Nostra Lingua LAB', it: 'Nostra Lingua LAB' });
   const originals = new WeakMap();
   let language = 'bn';
   try { const saved = localStorage.getItem('nostroLinguaLanguage'); if (['bn', 'en', 'it'].includes(saved)) language = saved; } catch { /* Storage may be unavailable. */ }
   const selector = document.getElementById('languageSelect');
   function apply() {
     document.documentElement.lang = language;
-    document.title = { bn: 'Nostro Lingua LAB | বাংলায় ইতালীয় শিখুন', en: 'Nostro Lingua LAB | Learn Italian', it: 'Nostro Lingua LAB | Impara l’italiano' }[language];
+    document.title = { bn: 'Nostra Lingua LAB | বাংলায় ইতালীয় শিখুন', en: 'Nostra Lingua LAB | Learn Italian', it: 'Nostra Lingua LAB | Impara l’italiano' }[language];
     selector.value = language;
     selector.setAttribute('aria-label', { bn: 'ভাষা নির্বাচন করুন', en: 'Choose language', it: 'Scegli la lingua' }[language]);
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);

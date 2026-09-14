@@ -126,4 +126,4 @@ createServer(async (req, res) => {
   const type = mimeTypes[extname(filePath).toLowerCase()] || 'application/octet-stream';
   res.writeHead(200, { 'Content-Type': type });
   res.end(readFileSync(filePath));
-}).listen(process.env.PORT || 3000, () => console.log(`Nostro Lingua LAB is running on http://localhost:${process.env.PORT || 3000}`));
+}).listen(process.env.PORT || 3000, () => console.log(`Nostra Lingua LAB is running on http://localhost:${process.env.PORT || 3000}`));
